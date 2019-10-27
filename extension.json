@@ -1,0 +1,71 @@
+{
+  "displayName": "My package test",
+  "name": "mine-package-test",
+  "platform": "web",
+  "version": "0.0.1",
+  "description": "Testing a package project",
+  "author": {
+    "name": "Catkim"
+  },
+  "viewBasePath": "src/view/",
+  "configuration": {
+    "viewPath": "configuration/configuration.html",
+    "schema": {
+      "$schema": "http://json-schema.org/draft-04/schema#",
+      "type": "object",
+      "properties": {}
+    }
+  },
+  "events": [
+    {
+      "displayName": "sampleEvent",
+      "name": "sampleevent",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {}
+      },
+      "libPath": "src/lib/events/sampleevent.js",
+      "viewPath": "events/sampleevent.html"
+    }
+  ],
+  "conditions": [
+    {
+      "displayName": "sampleCondition",
+      "name": "samplecondition",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {}
+      },
+      "libPath": "src/lib/conditions/samplecondition.js",
+      "viewPath": "conditions/samplecondition.html"
+    }
+  ],
+  "actions": [
+    {
+      "displayName": "sampleAction",
+      "name": "sampleaction",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {}
+      },
+      "libPath": "src/lib/actions/sampleaction.js",
+      "viewPath": "actions/sampleaction.html"
+    }
+  ],
+  "dataElements": [
+    {
+      "displayName": "sampleDataElement",
+      "name": "sampledataelement",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {}
+      },
+      "libPath": "src/lib/dataElements/sampledataelement.js",
+      "viewPath": "dataElements/sampledataelement.html"
+    }
+  ]
+}
